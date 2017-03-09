@@ -1,6 +1,15 @@
 import './style.css';
-const image = document.createElement('img')
+import small from '../assets/small.jpeg';
+import big from '../assets/big.jpeg';
 
-image.src = 'http://lorempixel.com/400/200/';
+const smallImg = document.createElement('img')
 
-export default image;
+smallImg.src = small;
+
+document.body.appendChild(smallImg);
+
+const bigImg = document.createElement('img')
+
+bigImg.src = big;
+
+document.body.appendChild(bigImg);
