@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Artemidas/webpack2/issues"
   },
-  "homepage": "https://github.com/Artemidas/webpack2#readme"
+  "homepage": "https://github.com/Artemidas/webpack2#readme",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
 }
