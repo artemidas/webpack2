@@ -1,5 +1,5 @@
-var button = document.createElement('button');
-var image = require('./image_module');
+const button = document.createElement('button');
+import image from './image_module';
 
 button.innerText = 'Click me!'
 
