@@ -1,15 +1,11 @@
 import './style.css';
 import small from '../assets/small.jpeg';
-import big from '../assets/big.jpeg';
 
-const smallImg = document.createElement('img')
 
-smallImg.src = small;
+export default () => {
+  const smallImg = document.createElement('img');
 
-document.body.appendChild(smallImg);
+  smallImg.src = small;
 
-const bigImg = document.createElement('img')
-
-bigImg.src = big;
-
-document.body.appendChild(bigImg);
+  document.body.appendChild(smallImg);
+}
